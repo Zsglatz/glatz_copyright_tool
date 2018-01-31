@@ -6,12 +6,12 @@ require "glatz_copyright_tool/version"
 Gem::Specification.new do |spec|
   spec.name          = "glatz_copyright_tool"
   spec.version       = GlatzCopyrightTool::VERSION
-  spec.authors       = ["TODO: Write your name"]
+  spec.authors       = ["Zayne Glatz"]
   spec.email         = ["zsglatz@gmail.com"]
 
   spec.summary       = %q{Various view specfic methods for applications I use.}
   spec.description   = %q{Provides generated HTML data for Rails application.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/Zsglatz/glatz_copyright_tool"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|

@@ -21,8 +21,9 @@ Or install it yourself as:
     $ gem install glatz_copyright_tool
 
 ## Usage
-
-TODO: Write usage instructions here
+```ruby
+@copyright = Glatzcopyright::Renderer.copyright 'Zayne Glatz','All rights reserved.'
+```
 
 ## Development
 
